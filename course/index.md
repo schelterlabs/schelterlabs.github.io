@@ -13,7 +13,7 @@ This course will be taught by [Sebastian Schelter](https://ssc.io), an MSDSE Fel
 
 #### 09/05 - Real-World Machine Learning Systems
 
-*end-to-end machine learning systems in the real-world; ML engineering; anecdotes; open problems and challenges;*
+*end-to-end machine learning systems in the real-world; ML engineering; anecdotes; open problems and challenges*
 
 * Sculley et al.: [Hidden Technical Debt in Machine Learning Systems](https://papers.nips.cc/paper/5656-hidden-technical-debt-in-machine-learning-systems.pdf), NeurIPS'15 <br/>
 * Polyzotis et al.: [Data Management Challenges in Production Machine Learning](https://dl.acm.org/citation.cfm?id=3035918.3054782), SIGMOD Record'18
@@ -23,11 +23,11 @@ This course will be taught by [Sebastian Schelter](https://ssc.io), an MSDSE Fel
 
 #### 09/12 - Systems Foundations
 
-history of large-scale data processing; systems basics: data parallelism, task parallelism, pipeline parallelism; memory hierarchy; end of Moore's law; distributed filesystems; machine learning in practice; machine learning engineering
+*history of large-scale data processing; systems basics: data parallelism, task parallelism, pipeline parallelism; memory hierarchy; end of Moore's law; distributed filesystems; machine learning in practice; machine learning engineering*
 
 * Drepper: [What every programmer should know about memory](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf), 2007
  * Ghewamat et al.: [The Google Filesystem](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/035fc972c796d33122033a0614bc94cff1527999.pdf), SOSP'03
- * Zinkevich: [Rules of Machine Learning: Best Practices for ML Engineering]((https://developers.google.com/machine-learning/guides/rules-of-ml/)
+ * Zinkevich: [Rules of Machine Learning: Best Practices for ML Engineering](https://developers.google.com/machine-learning/guides/rules-of-ml/)
 
 ---
 
@@ -35,7 +35,7 @@ history of large-scale data processing; systems basics: data parallelism, task p
 
 #### 09/19 - Machine Learning on Distributed Dataflow Systems I
 
-  recap: abstractions for parallel data processing (MapReduce / Resilient Distributed Datasets); reformulation of ML algorithms using MapReduce; SparkML
+*recap: abstractions for parallel data processing (MapReduce / Resilient Distributed Datasets); reformulation of ML algorithms using MapReduce; SparkML*
 
  * Dean et al.: [MapReduce: Simplified Data Processing on Large Clusters](https://www.usenix.org/legacy/events/osdi04/tech/full_papers/dean/dean.pdf), OSDI'04
  * Chu et al.: [Map-Reduce for Machine Learning on Multicore](http://papers.nips.cc/paper/3150-map-reduce-for-machine-learning-on-multicore.pdf), NeurIPS'07
@@ -46,7 +46,7 @@ history of large-scale data processing; systems basics: data parallelism, task p
 
 #### 09/26 - Machine Learning on Distributed Dataflow Systems II
 
-domain-specific languages for ML; compilation of ML programs to dataflow systems; limits of scalability; performance issues of distributed dataflow systems
+*domain-specific languages for ML; compilation of ML programs to dataflow systems; limits of scalability; performance issues of distributed dataflow systems*
 
  * Böhm et al.: [SystemML: Declarative Machine Learning on Spark](http://www.vldb.org/pvldb/vol9/p1425-boehm.pdf), VLDB'16
  * Zhang et al.: [DimmWitted: A Study of Main-Memory Statistical Analytics](https://arxiv.org/pdf/1403.7550.pdf), VLDB'14
@@ -55,7 +55,7 @@ domain-specific languages for ML; compilation of ML programs to dataflow systems
 
 #### 10/03 - Distributed Learning with Parameter Servers
 
-scalable asychronous learning; Hogwild!-style SGD; limitations of distributed learning; distributed matrix factorization
+*scalable asychronous learning; Hogwild!-style SGD; limitations of distributed learning; distributed matrix factorization*
 
  * Dean et al.: [Large Scale Distributed Deep Networks](http://papers.nips.cc/paper/4687-large-scale-distributed-deep-networks), NeurIPS'12
  * Li et al.: [Scaling Distributed Machine Learning  with the Parameter Server](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-li_mu.pdf), OSDI'14
@@ -64,7 +64,7 @@ scalable asychronous learning; Hogwild!-style SGD; limitations of distributed le
  
 #### 10/10 - Deep Learning Engines
 
-representation of deep neural networks as computational graphs; auto-differentiation; scheduling of mini-batch SGD; eager execution; optimization for CPU/GPU; deep learning compilers;
+*representation of deep neural networks as computational graphs; auto-differentiation; scheduling of mini-batch SGD; eager execution; optimization for CPU/GPU; deep learning compilers*
 
  * Abadi et al.: [TensorFlow: A System for Large-Scale Machine Learning](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf), OSDI'16
  * Chen et al.: [MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems](https://www.cs.cmu.edu/~muli/file/mxnet-learning-sys.pdf), ML Systems workshop at NeurIPS'15
@@ -74,7 +74,7 @@ representation of deep neural networks as computational graphs; auto-differentia
 
 #### 10/17 - Model Serving Systems 
 
-model serving; deploying machine learning models; A/B tests
+*model serving; deploying machine learning models; A/B tests*
 
  * Crankshaw et al.: [Clipper: A Low-Latency Online Prediction Serving System](https://www.usenix.org/system/files/conference/nsdi17/nsdi17-crankshaw.pdf), NSDI'17
  * Olson et al.: [Tensor Flow-Serving: Flexible, High-Performance ML Serving](http://learningsys.org/nips17/assets/papers/paper_1.pdf), ML Systems workshop at NeurIPS'17
@@ -86,7 +86,7 @@ model serving; deploying machine learning models; A/B tests
 
 #### 10/24 Model and Metadata Management
 
-experiment databases; managing models and metadata in ML experiments; reproducibility in ML; collaboration between data scientists 
+*experiment databases; managing models and metadata in ML experiments; reproducibility in ML; collaboration between data scientists*
 
  * Vanschoren et al.: [OpenML: networked science in machine learning](https://arxiv.org/pdf/1407.7722.pdf), KDD'14
  * Vartak et al.: [ModelDB: Opportunities and Challenges in Managing Machine Learning Models](http://sites.computer.org/debull/A18dec/A18DEC-CD.pdf#page=18), IEEE Data Engineering'18
@@ -96,7 +96,7 @@ experiment databases; managing models and metadata in ML experiments; reproducib
 
 #### 10/31 Automated Machine Learning
 
-automating supervised learning; accelerating model selection; relationship between query optimization and model search
+*automating supervised learning; accelerating model selection; relationship between query optimization and model search*
 
   * Feurer et al.: [Efficient and Robust Automated Machine Learning](http://papers.nips.cc/paper/5872-efficient-and-robust-automated-machine-learning.pdf), NeurIPS'15
   * Binnig et al.: [Towards Interactive Curation & Automatic Tuning of ML Pipelines](https://par.nsf.gov/servlets/purl/10066177), DEEM workshop at SIGMOD'18
@@ -105,7 +105,7 @@ automating supervised learning; accelerating model selection; relationship betwe
 
 #### 11/07 Data Validation and Data Cleaning
 
-data quality dimensions; data profiling; data cleaning; unit tests for data; constraint suggestion; anomaly detection; missing value imputation;
+*data quality dimensions; data profiling; data cleaning; unit tests for data; constraint suggestion; anomaly detection; missing value imputation*
 
  * Hellerstein: [Quantitative Data Cleaning for Large Databases](http://db.cs.berkeley.edu/jmh/papers/cleaning-unece.pdf), 2002
   * Schelter et al.: [Automating Large-Scale Data Quality Verification](http://www.vldb.org/pvldb/vol11/p1781-schelter.pdf), VLDB'18
@@ -115,7 +115,7 @@ data quality dimensions; data profiling; data cleaning; unit tests for data; con
  
 #### 11/14 Model Validation
 
-operating ML systems; schema-validation of features; dataset shift detection;
+*operating ML systems; schema-validation of features; dataset shift detection;*
 
  * Baylor et al.: [TFX: A TensorFlow-Based Production-Scale Machine Learning Platform](http://stevenwhang.com/tfx_paper.pdf), KDD'17
  * Breck et al.: [The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8258038), BigData'17 
@@ -125,7 +125,7 @@ operating ML systems; schema-validation of features; dataset shift detection;
 
 #### 11/21 Fairness in Automated Decision Making
 
-fairness and bias in ML; measuring fairness; counter measures
+*fairness and bias in ML; measuring fairness; counter measures*
 
   * Barocas et al.: [Big Data's Disparate Impact](http://www.californialawreview.org/wp-content/uploads/2016/06/2Barocas-Selbst.pdf)  
   * Dwork et al.: [Fairness Through Awareness](https://arxiv.org/pdf/1104.3913.pdf), FAT*ML'12
@@ -141,7 +141,7 @@ fairness and bias in ML; measuring fairness; counter measures
 
 #### 12/05 Case Study: Large-Scale Demand Forecasting at Amazon
 
-analysis of a real-world end-to-end ML system from Amazon
+*analysis of a real-world end-to-end ML system from Amazon*
 
  * Böse et al.: [Probabilistic Demand Forecasting at Scale](http://www.vldb.org/pvldb/vol10/p1694-schelter.pdf), VLDB'17
  * Salinas et al.: [DeepAR: Probabilistic Forecasting with Autoregressive Recurrent Networks](https://arxiv.org/pdf/1704.04110)
@@ -150,4 +150,6 @@ analysis of a real-world end-to-end ML system from Amazon
 
 #### 12/12 Invited Guest Lecture with Industry Practitioner
  
+---
+  
 #### 12/19 Final Exam
